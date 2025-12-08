@@ -125,6 +125,8 @@
 		4D2A6EA62B4EE6A800B442D0 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		4D2A6EA82B4EE84600B442D0 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		4D2A6EAC2B51D24300B442D0 /* CoachingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingInfo.swift; sourceTree = "<group>"; };
+		4D2D04DD2EE71E800006D0D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D2D04DE2EE71FA10006D0D6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4D4E45822CEA3992009140D8 /* AiMessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiMessagesManager.swift; sourceTree = "<group>"; };
 		4D4E45882CEA3A29009140D8 /* AiMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiMessage.swift; sourceTree = "<group>"; };
 		4D4E458A2CEA3A4B009140D8 /* GptApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptApiCalls.swift; sourceTree = "<group>"; };
@@ -216,6 +218,8 @@
 		4D2A6E262B4D982F00B442D0 = {
 			isa = PBXGroup;
 			children = (
+				4D2D04DE2EE71FA10006D0D6 /* LICENSE */,
+				4D2D04DD2EE71E800006D0D6 /* README.md */,
 				4D2A6E312B4D983000B442D0 /* BeatBalance */,
 				4D2A6E302B4D983000B442D0 /* Products */,
 				4D8EB7802B9C79BD003C1B47 /* Frameworks */,
