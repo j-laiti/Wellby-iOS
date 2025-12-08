@@ -2,7 +2,7 @@
 
 A wellbeing companion app designed to support adolescent health through lifestyle resources, mood tracking, HRV biofeedback, and optional health coaching. Built as part of a research study at **RCSI (Royal College of Surgeons in Ireland)**.
 
-Looking for Android? See **wellby-android**.
+Looking for Android? See **[wellby-android](https://github.com/j-laiti/Wellby-Android)**.
 
 ---
 
@@ -79,7 +79,7 @@ Coming soon.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/wellby-ios.git
+git clone https://github.com/j-laiti/wellby-ios.git
 cd wellby-ios
 ```
 
