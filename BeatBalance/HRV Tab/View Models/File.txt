@@ -1,0 +1,19 @@
+func startPPGRecording() {
+    // Remove these two lines - sessionID is now set before this is called
+    // self.sessionID = UUID()
+    // print("new UUID set: \(self.sessionID)")
+    
+    print("Starting recording with sessionID: \(self.sessionID)")
+    
+    guard isConnected, let peripheral = connectedPeripheral, let characteristic = recordingControlCharacteristic else {
+        print("No connected peripheral or recording characteristic not found.")
+        return
+    }
+
+    // Write the value 0x01 to start recording
+    let startValue: UInt8 = 0x01
+    let data = Data([startValue])
+    peripheral.writeValue(data, for: characteristic, type: .withResponse)
+    
+    beginRecoringViewEnabled = true
+}
