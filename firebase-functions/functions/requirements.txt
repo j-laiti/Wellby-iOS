@@ -1,0 +1,10 @@
+firebase-admin>=6.0.0
+firebase_functions~=0.1.0
+functions-framework==3.*
+sendgrid
+twilio
+numpy
+scipy
+joblib
+lightgbm
+scikit-learn
