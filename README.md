@@ -334,6 +334,8 @@ Please make sure to:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+The app icon was created by Andrei Marius (https://andreimarius.com/icons) who gave permission for this to be used as part of this app.
+
 ---
 
 ## Contact
