@@ -18,7 +18,7 @@ struct PeripheralSheetView: View {
                 
                 if !bluetoothManager.isConnected {
                     Text("Device Search")
-                    TextField("Enter your device ID", text: $deviceID)
+                    TextField("Filter for your device ID", text: $deviceID)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
                     
@@ -28,14 +28,7 @@ struct PeripheralSheetView: View {
                     }
                     
                     //TODO: update this peripheral search to find the wearable
-                    List(bluetoothManager.peripherals.filter { peripheral in
-                        
-                        guard deviceID.count == 3 else {
-                            return false
-                        }
-                        return peripheral.name?.hasSuffix(deviceID) ?? false
-                        
-                    }, id: \.identifier) { peripheral in
+                    List(bluetoothManager.peripherals, id: \.identifier) { peripheral in
                         HStack {
                             Text(peripheral.name ?? "Unknown Device")
                             
